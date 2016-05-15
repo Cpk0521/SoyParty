@@ -1,0 +1,75 @@
+#primary {
+    /*padding: 65px 0 50PX 0;*/
+}
+
+#picture {
+	/*border: 1px solid #F00;*/
+	position: absolute;
+	width:800px;
+	height:900px;
+	background-image:url('../photo/BKG2.png');
+    background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+#pic_title_1,#pic_title_2,#pic_title_3,#pic_title_4 {
+	display:none;
+}
+
+#pic_title_1{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-image:url('../photo/pic001.png');
+	 background-size: contain;
+    background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+#pic_title_2{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-image:url('../photo/pic002.png');
+	 background-size: contain;
+    background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+#pic_title_3{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-image:url('../photo/pic003.png');
+	 background-size: contain;
+   background-repeat:no-repeat;
+   background-position:50% 50%;
+}
+#pic_title_4{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-image:url('../photo/pic004.png');
+	 background-size: contain;
+    background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+
+@media screen and (max-width: 1000px) {
+#mobile-right {
+	border: 1px solid #FFF;
+	height:auto;
+}
+
+#mobile-primary{
+	padding: 20px 0 15px 0;
+}
+
+#mobile-picture{
+	background-image:url('../photo/BKG2.png');
+	 background-size: contain;
+    background-repeat:no-repeat;
+	background-position:50% 50%;
+	height:100%;
+}
+
+
+
+}
